@@ -13,9 +13,11 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
+Route::view('/', function (){
+   return 'test';
+});
 Route::group(['prefix' => 'administration'], function (){
-    Route::get('/', 'DashboardController@index')->name('dashboard');
+    Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 });
 
 Auth::routes();

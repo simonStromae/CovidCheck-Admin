@@ -1,35 +1,48 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE_LAPA - @yield('title')</title>
-    <link type="text/css" href="{{ asset('asset/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link type="text/css" href="{{ asset('asset/bootstrap/css/bootstrap-responsive.min.css') }}" rel="stylesheet">
-    <link type="text/css" href="{{ asset('asset/css/theme.css') }}" rel="stylesheet">
-    <link type="text/css" href="{{ asset('asset/images/icons/css/font-awesome.css') }}" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CovidCheck | @yield('title')</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ asset('dist/img/logo.svg') }}" type="image/x-icon">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="{{ asset('bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ asset('bower_components/font-awesome/css/font-awesome.min.css') }}">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="{{ asset('bower_components/Ionicons/css/ionicons.min.css') }}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('dist/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('dist/css/main.css') }}">
     @stack('css')
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body>
-@include('layouts.partial._navbar')
+<body class="hold-transition @if(Request::is('login')) login-page @else skin-blue sidebar-mini @endif">
+    <div class="@if(Request::is('login')) login-box @else wrapper @endif">
+        @yield('container')
 
-<div class="wrapper">
-    <div class="container">
-        <div class="row">
-            @if(Request::is('administration*'))
-                @include('layouts.partial._siderbar')
-            @endif
-
-            @yield('content')
-        </div>
+        @if(!Request::is('login'))
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0.0
+                </div>
+                <strong>Copyright &copy; 2020 <a href="#">AlphaLabo</a>.</strong> Tous droits
+                reservés.
+            </footer>
+        @endif
     </div>
-</div><!--/.wrapper-->
 
-@include('layouts.partial._footer')
+    <!-- jQuery 3 -->
+    <script src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="{{ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 
-<script src="{{ asset('asset/scripts/jquery-1.9.1.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('asset/scripts/jquery-ui-1.10.1.custom.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('asset/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
-@stack('scripts')
+    @stack('js')
 </body>
+</html>

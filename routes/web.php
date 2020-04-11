@@ -13,11 +13,20 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-Route::view('/', function (){
-   return 'test';
+
+Route::namespace("Admin")->prefix("Administration")->middleware("auth")->group(function (){
+    Route::view('/', 'Admin/dashboard')->name('dashboard');
+    Route::get('/profile', function (){
+        return view('auth.profile')->with('user', Auth::user());
+    })->name('profile');
+    Route::resource('region', 'RegionController');
+    Route::resource('city', 'CityController');
+    Route::resource('statistic', 'StatisticController');
 });
-Route::group(['prefix' => 'administration'], function (){
-    Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('/', function (){
+    return redirect()->route('dashboard');
 });
 
-Auth::routes();
+Auth::routes(array(
+    'register' => false,
+));

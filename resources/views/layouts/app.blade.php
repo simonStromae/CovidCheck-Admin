@@ -22,19 +22,20 @@
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition @if(Request::is('login')) login-page @else skin-blue sidebar-mini @endif">
-    <div class="@if(Request::is('login')) login-box @else wrapper @endif">
+<body class="hold-transition @if(Request::is('login')) login-page @elseif(Request::is('lockscreen')) lockscreen @else skin-blue sidebar-mini @endif">
+    <div class="@if(Request::is('login')) login-box @elseif(Request::is('lockscreen')) lockscreen-wrapper @else wrapper @endif">
         @yield('container')
 
         @if(!Request::is('login'))
-            <!-- /.content-wrapper -->
-            <footer class="main-footer">
-                <div class="pull-right hidden-xs">
-                    <b>Version</b> 1.0.0
-                </div>
-                <strong>Copyright &copy; 2020 <a href="#">AlphaLabo</a>.</strong> Tous droits
-                reservés.
-            </footer>
+            @if(!Request::is('lockscreen'))
+                <footer class="main-footer">
+                    <div class="pull-right hidden-xs">
+                        <b>Version</b> 1.0.0
+                    </div>
+                    <strong>Copyright &copy; 2020 <a href="#">AlphaLabo</a>.</strong> Tous droits
+                    reservés.
+                </footer>
+            @endif
         @endif
     </div>
 

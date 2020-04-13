@@ -2,6 +2,8 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\AccessAdmin;
+use App\Http\Middleware\LockAccount;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -61,6 +63,8 @@ class Kernel extends HttpKernel
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'lock' => \App\Http\Middleware\LockAccount::class,
+        'auth.admin' => \App\Http\Middleware\AccessAdmin::class,
     ];
 
     /**

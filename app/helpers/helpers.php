@@ -11,6 +11,11 @@ function Username(){
 function RoleUser(){
     return Auth::user()->role;
 }
+
+function AvatarUser(){
+    return Auth::user()->avatar;
+}
+
 function addZero($number){
     return ($number > 9) ? $number : '0'.$number;
 }

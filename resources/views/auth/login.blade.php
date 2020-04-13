@@ -14,7 +14,7 @@
             @csrf
             <div class="form-group has-feedback @error('username') has-error @enderror">
                 <input type="text" name="username" class="form-control @error('username') error @enderror" value="{{ old('username') }}" placeholder="Identifiant">
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 @error('username')
                     <span class="help-block" role="alert">
                         <i class="fa fa-times-circle-o"></i>

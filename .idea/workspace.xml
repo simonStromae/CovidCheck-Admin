@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150c2274-18bb-467c-b755-9fa82aa5b51e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/helpers.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/projet.iml" afterPath="$PROJECT_DIR$/.idea/projet.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change beforePath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/css/theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/icons/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/icons/font/fontawesome-webfont3294.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/icons/font/fontawesome-webfont3294.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/icons/font/fontawesome-webfont3294.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/icons/font/fontawesome-webfontd41d.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/img.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/jquery-ui/picker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/images/user.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/datatables/jquery.dataTables.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/flot/jquery.flot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/flot/jquery.flot.pie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/flot/jquery.flot.resize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/jquery-1.9.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/asset/scripts/jquery-ui-1.10.1.custom.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/helpers.php" afterPath="$PROJECT_DIR$/app/helpers/helpers.php" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partial/_footer.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partial/_navbar.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partial/_siderbar.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,64 +63,50 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="446">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/StatisticController.php">
+      <file leaf-file-name="forbidden.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/error/forbidden.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding>
-                <element signature="e#46#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="38" column="131" lean-forward="false" selection-start-line="38" selection-start-column="131" selection-end-line="38" selection-end-column="131" />
+            <state relative-caret-position="119">
+              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessAdmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AccessAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
-                <marker date="1586540595835" expanded="true" signature="9:22" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="34:57" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="69:80" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="143:171" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="362:378" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="620:637" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="946:956" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="1543:1553" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="1858:1892" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="2337:2341" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="2382:2421" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="2719:2724" ph="..." />
-                <marker date="1586540595835" expanded="true" signature="2781:2822" ph="..." />
+                <element signature="e#39#51#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+      <file leaf-file-name="RegionController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RegionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -204,14 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Resources/MeasureResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/MeasurePostRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/MeasureController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_03_27_053518_create_flights_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ShowProfile.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/City.php" />
         <option value="$PROJECT_DIR$/app/Statistic.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_08_124742_create_cities_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
@@ -230,8 +161,6 @@
         <option value="$PROJECT_DIR$/resources/views/Admin/Region/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/City/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partial/_modal.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CityController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/partial/_left-side.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Region/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Statistic/create.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_08_124820_create_statistics_table.php" />
@@ -239,22 +168,32 @@
         <option value="$PROJECT_DIR$/resources/views/Admin/City/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Statistic/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/partial/_header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/profile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Statistic/view.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/app/Region.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RegionController.php" />
-        <option value="$PROJECT_DIR$/app/helpers/helpers.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Region/index.blade.php" />
         <option value="$PROJECT_DIR$/public/dist/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/resources/views/Admin/Statistic/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/StatisticController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/User/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/User/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/helpers/helpers.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/LockAccount.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partial/_left-side.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/lockscreen.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LockAccountController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partial/_header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RegionController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/StatisticController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CityController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/AccessAdmin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -378,12 +317,24 @@
       <dailyData date="11-4-2020">
         <observation name="false" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="false" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="false" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -394,12 +345,25 @@
       <dailyData date="11-4-2020">
         <observation name="false" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="false" value="132,0" />
+        <observation name="true" value="2,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="false" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -413,6 +377,16 @@
         <observation name="false" value="15,0" />
         <observation name="true" value="4,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="false" value="39,0" />
+        <observation name="true" value="39,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="12,0" />
+        <observation name="true" value="2,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="10-4-2020">
@@ -423,6 +397,16 @@
         <observation name="UNDEFINED" value="6,0" />
         <observation name="false" value="15,0" />
         <observation name="true" value="4,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="false" value="60,0" />
+        <observation name="true" value="18,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="11,0" />
+        <observation name="true" value="3,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -435,6 +419,16 @@
         <observation name="false" value="15,0" />
         <observation name="true" value="4,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="false" value="47,0" />
+        <observation name="true" value="31,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="13,0" />
+        <observation name="true" value="1,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="10-4-2020">
@@ -446,6 +440,16 @@
         <observation name="false" value="15,0" />
         <observation name="true" value="4,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="false" value="58,0" />
+        <observation name="true" value="20,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="12,0" />
+        <observation name="true" value="2,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="10-4-2020">
@@ -456,6 +460,14 @@
         <observation name="UNDEFINED" value="6,0" />
         <observation name="false" value="19,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="false" value="78,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="14,0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="10-4-2020">
@@ -463,6 +475,12 @@
         <observation name="true" value="2,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="false" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="false" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="false" value="25,0" />
       </dailyData>
     </factor>
@@ -473,12 +491,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="categorialFeature:expectedType">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -489,12 +519,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="categorialFeature:prox_groovyReferenceListWeigher">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -505,12 +547,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="categorialFeature:prox_referenceList">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -521,6 +575,12 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="10-4-2020">
@@ -529,9 +589,19 @@
         <observation name="typedSelect" value="3,0" />
       </dailyData>
       <dailyData date="11-4-2020">
-        <observation name="cancelled" value="129,0" />
+        <observation name="cancelled" value="181,0" />
         <observation name="explicitSelect" value="17,0" />
         <observation name="typedSelect" value="8,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="cancelled" value="460,0" />
+        <observation name="explicitSelect" value="98,0" />
+        <observation name="typedSelect" value="36,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="cancelled" value="60,0" />
+        <observation name="explicitSelect" value="20,0" />
+        <observation name="typedSelect" value="5,0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -541,13 +611,25 @@
       <dailyData date="11-4-2020">
         <observation name="BASIC" value="29,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="BASIC" value="191,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="BASIC" value="29,0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="10-4-2020">
         <observation name="count" value="49,0" />
       </dailyData>
       <dailyData date="11-4-2020">
-        <observation name="count" value="154,0" />
+        <observation name="count" value="206,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="count" value="594,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="count" value="85,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -559,6 +641,20 @@
         <observation name="variance" value="0,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="average" value="0,0" />
         <observation name="count" value="49,0" />
         <observation name="max" value="0,0" />
@@ -581,6 +677,20 @@
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="10-4-2020">
@@ -589,12 +699,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -613,6 +735,20 @@
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,135575" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="0,157303" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="3,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,239948" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="0,571429" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="9,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="2,023476" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="10-4-2020">
@@ -628,6 +764,20 @@
         <observation name="max" value="0,0" />
         <observation name="min" value="-1604,0" />
         <observation name="variance" value="103845,02679" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="-1065,621723" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="8,0" />
+        <observation name="min" value="-1904,0" />
+        <observation name="variance" value="91042,833587" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="-853,55102" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="-1474,0" />
+        <observation name="variance" value="214261,474138" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -645,6 +795,20 @@
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="1346586617874394400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,0" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="�" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="10-4-2020">
@@ -653,12 +817,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -679,12 +855,34 @@
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,397575" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="56,0" />
+        <observation name="average" value="1,393548" />
+        <observation name="count" value="155,0" />
+        <observation name="max" value="2,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,709363" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="average" value="0,444444" />
+        <observation name="count" value="27,0" />
+        <observation name="max" value="2,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,408984" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -697,6 +895,20 @@
         <observation name="variance" value="0,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="average" value="0,0" />
         <observation name="count" value="49,0" />
         <observation name="max" value="0,0" />
@@ -719,12 +931,32 @@
         <observation name="min" value="2,0" />
         <observation name="variance" value="1,548063" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="5,955056" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="19,0" />
+        <observation name="min" value="2,0" />
+        <observation name="variance" value="6,458575" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="6,22449" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="11,0" />
+        <observation name="min" value="2,0" />
+        <observation name="variance" value="4,851757" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -735,12 +967,24 @@
       <dailyData date="11-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -759,12 +1003,32 @@
         <observation name="min" value="1,0" />
         <observation name="variance" value="0,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="1,0" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="1,0" />
+        <observation name="min" value="1,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="1,0" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="1,0" />
+        <observation name="min" value="1,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="10-4-2020">
         <observation name="UNDEFINED" value="11,0" />
       </dailyData>
       <dailyData date="11-4-2020">
+        <observation name="UNDEFINED" value="25,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="UNDEFINED" value="134,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
         <observation name="UNDEFINED" value="25,0" />
       </dailyData>
     </factor>
@@ -783,6 +1047,20 @@
         <observation name="min" value="0,0" />
         <observation name="variance" value="5704521,648812" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="8458,722846" />
+        <observation name="count" value="267,0" />
+        <observation name="max" value="10000,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="9393899,074928" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="8264,77551" />
+        <observation name="count" value="49,0" />
+        <observation name="max" value="9997,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="7846581,690955" />
+      </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="10-4-2020">
@@ -795,6 +1073,18 @@
         <observation name="1" value="1,0" />
         <observation name="2" value="1,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="0" value="86,0" />
+        <observation name="1" value="5,0" />
+        <observation name="2" value="5,0" />
+        <observation name="3" value="2,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="0" value="16,0" />
+        <observation name="1" value="2,0" />
+        <observation name="3" value="1,0" />
+        <observation name="9" value="1,0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="10-4-2020">
@@ -803,6 +1093,14 @@
       </dailyData>
       <dailyData date="11-4-2020">
         <observation name="total" value="13,0" />
+        <observation name="withMnemonics" value="0,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="total" value="64,0" />
+        <observation name="withMnemonics" value="0,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="total" value="11,0" />
         <observation name="withMnemonics" value="0,0" />
       </dailyData>
     </factor>
@@ -822,6 +1120,27 @@
         <observation name="5" value="5,0" />
         <observation name="6" value="1,0" />
       </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="0" value="9,0" />
+        <observation name="1" value="25,0" />
+        <observation name="10" value="1,0" />
+        <observation name="11" value="1,0" />
+        <observation name="2" value="26,0" />
+        <observation name="3" value="8,0" />
+        <observation name="4" value="17,0" />
+        <observation name="5" value="5,0" />
+        <observation name="6" value="4,0" />
+        <observation name="7" value="2,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="0" value="7,0" />
+        <observation name="1" value="2,0" />
+        <observation name="2" value="1,0" />
+        <observation name="3" value="6,0" />
+        <observation name="4" value="1,0" />
+        <observation name="5" value="2,0" />
+        <observation name="8" value="1,0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="10-4-2020">
@@ -831,6 +1150,14 @@
       <dailyData date="11-4-2020">
         <observation name="average" value="330,881356" />
         <observation name="count" value="59,0" />
+      </dailyData>
+      <dailyData date="12-4-2020">
+        <observation name="average" value="456,885294" />
+        <observation name="count" value="340,0" />
+      </dailyData>
+      <dailyData date="13-4-2020">
+        <observation name="average" value="463,418605" />
+        <observation name="count" value="43,0" />
       </dailyData>
     </factor>
   </component>
@@ -876,12 +1203,6 @@
             <path>
               <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -889,35 +1210,6 @@
               <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Region" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Login System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login System" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -997,7 +1289,7 @@
       <workItem from="1586348681736" duration="29066000" />
       <workItem from="1586462882520" duration="68000" />
       <workItem from="1586502544449" duration="16639000" />
-      <workItem from="1586537430860" duration="6868000" />
+      <workItem from="1586537430860" duration="26396000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1575446780885</created>
@@ -1027,14 +1319,22 @@
       <option name="project" value="LOCAL" />
       <updated>1575462778750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creation interface administration CovidCheck">
+      <created>1586602990593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586602990593</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269770000" />
+    <option name="totallyTimeSpent" value="289298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1091,7 +1391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="change path field" />
-    <option name="LAST_COMMIT_MESSAGE" value="change path field" />
+    <MESSAGE value="creation interface administration CovidCheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation interface administration CovidCheck" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1100,136 +1401,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_content-header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_successMessage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/dd296413/49f50d11-6338-40b3-b82e-c4da03127467/main.regions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/dd296413/49f50d11-6338-40b3-b82e-c4da03127467/main.cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_modal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_left-side.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="113" lean-forward="false" selection-start-line="31" selection-start-column="113" selection-end-line="31" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Region/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/City/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/City.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/select2/src/js/jquery.select2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/jquery-ui/ui/widgets/datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1016">
-          <caret line="2077" column="0" lean-forward="false" selection-start-line="2077" selection-start-column="0" selection-end-line="2077" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/select2/dist/js/select2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4209">
-          <caret line="5825" column="4" lean-forward="false" selection-start-line="5825" selection-start-column="4" selection-end-line="5825" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/select2/dist/css/select2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/select2/dist/css/select2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Region/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/fr/validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Statistic/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1254,13 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/datatables.net/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1810">
@@ -1276,13 +1444,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/City/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1294,13 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1318,24 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#20#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RegionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="78" lean-forward="false" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/jquery-sparkline/dist/jquery.sparkline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -1347,6 +1483,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7717">
           <caret line="4970" column="23" lean-forward="false" selection-start-line="4970" selection-start-column="17" selection-end-line="4970" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,30 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1423,22 +1536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="121" column="10" lean-forward="false" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1447,10 +1544,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1087">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Region/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#2974#0#Blade" expanded="false" />
+            <marker date="1586384188013" expanded="true" signature="9:46" ph="..." />
+            <marker date="1586384188013" expanded="true" signature="58:84" ph="..." />
+            <marker date="1586384188013" expanded="true" signature="96:107" ph="..." />
+            <marker date="1586384188013" expanded="true" signature="2854:2859" ph="..." />
+            <marker date="1586384188013" expanded="true" signature="2916:2960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/Region/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="42" column="82" lean-forward="false" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
+        <state relative-caret-position="714">
+          <caret line="42" column="82" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <marker date="1586526174625" expanded="true" signature="9:46" ph="..." />
             <marker date="1586526174625" expanded="true" signature="58:76" ph="..." />
@@ -1475,58 +1614,370 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="231" column="20" lean-forward="false" selection-start-line="231" selection-start-column="20" selection-end-line="231" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/User/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="e#1929#1958#0#HTML" expanded="true" />
+            <marker date="1586671761745" expanded="true" signature="9:44" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="56:79" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="91:102" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="117:142" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="157:185" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="287:371" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="682:704" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="1492:1507" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="1656:1687" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="1877:1911" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="2020:2028" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="2144:2162" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="2795:2838" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="2933:2950" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3004:3018" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3072:3084" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3138:3151" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3203:3386" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3252:3269" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="3252:3270" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="4234:4267" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="4391:4396" ph="..." />
+            <marker date="1586671761745" expanded="true" signature="4453:4497" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/Statistic/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="79" selection-end-column="99" />
+          <folding>
+            <marker date="1586505706395" expanded="true" signature="9:46" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="58:82" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="94:105" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="120:145" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="160:188" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="293:406" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="543:569" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="2417:2433" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="2496:2507" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="2513:2526" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="3866:3871" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="3942:4028" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4089:4146" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4089:4149" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4209:4253" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4275:4279" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4321:4384" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4451:4535" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4592:4662" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4718:4772" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4831:4865" ph="..." />
+            <marker date="1586505706395" expanded="true" signature="4938:4964" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/User/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="70" column="67" lean-forward="false" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+          <folding>
+            <marker date="1586675536829" expanded="true" signature="9:22" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="34:64" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="76:87" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="102:127" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="142:170" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="275:394" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="707:728" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="1817:1827" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="2726:2736" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="3726:3736" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="4583:4593" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="5111:5116" ph="..." />
+            <marker date="1586675536829" expanded="true" signature="5173:5217" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/dd296413/49f50d11-6338-40b3-b82e-c4da03127467/main.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="131" lean-forward="false" selection-start-line="38" selection-start-column="131" selection-end-line="38" selection-end-column="131" />
+        <state relative-caret-position="272">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="8" />
           <folding>
-            <marker date="1586540595835" expanded="true" signature="9:22" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="34:57" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="69:80" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="143:171" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="362:378" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="620:637" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="946:956" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="1543:1553" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="1858:1892" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="2337:2341" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="2382:2421" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="2719:2724" ph="..." />
-            <marker date="1586540595835" expanded="true" signature="2781:2822" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="9:22" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="34:57" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="69:80" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="143:171" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="362:378" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="620:637" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="942:952" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="1539:1549" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="1854:1888" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="2333:2337" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="2378:2417" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="2715:2720" ph="..." />
+            <marker date="1586668173088" expanded="true" signature="2777:2818" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1586691152605" expanded="true" signature="146:153" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="393:421" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="510:574" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="640:705" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="767:824" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="889:925" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="965:993" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1009:1014" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1220:1240" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1261:1286" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1357:1377" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1397:1422" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1481:1492" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1507:1528" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1546:1572" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="1987:2040" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="2102:2164" ph="..." />
+            <marker date="1586691152605" expanded="true" signature="2190:2194" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/LockAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1706">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3678">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_left-side.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <marker date="1586692743781" expanded="true" signature="312:352" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="474:486" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1308:1326" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1341:1361" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1460:1475" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1490:1513" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1601:1614" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1629:1650" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1746:1764" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1779:1805" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1902:1915" ph="..." />
+            <marker date="1586692743781" expanded="true" signature="1930:1951" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/lockscreen.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="95" lean-forward="false" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding>
+            <marker date="1586692983753" expanded="true" signature="9:22" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="34:59" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="71:82" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="150:178" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="263:275" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="452:492" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="695:722" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="1305:1315" ph="..." />
+            <marker date="1586692983753" expanded="true" signature="1413:1429" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partial/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#small#0;n#p#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
+            <marker date="1586694253464" expanded="true" signature="70:98" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="597:637" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="728:740" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="955:995" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="1102:1114" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="1121:1133" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="1207:1225" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="1500:1527" ph="..." />
+            <marker date="1586694253464" expanded="true" signature="1727:1744" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LockAccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/StatisticController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#46#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="-380">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RegionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding>
+            <element signature="e#28#64#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AccessAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/error/forbidden.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="446">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>

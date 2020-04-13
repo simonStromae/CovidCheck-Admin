@@ -14,7 +14,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::namespace("Admin")->prefix("Administration")->middleware("auth")->group(function (){
+Route::namespace("Admin")->prefix("Administration")->middleware(["auth", "lock"])->group(function (){
     Route::view('/', 'Admin/dashboard')->name('dashboard');
     Route::get('/profile', function (){
         return view('auth.profile')->with('user', Auth::user());
@@ -22,6 +22,7 @@ Route::namespace("Admin")->prefix("Administration")->middleware("auth")->group(f
     Route::resource('region', 'RegionController');
     Route::resource('city', 'CityController');
     Route::resource('statistic', 'StatisticController');
+    Route::resource('user', 'UserController');
 });
 Route::get('/', function (){
     return redirect()->route('dashboard');
@@ -30,3 +31,9 @@ Route::get('/', function (){
 Auth::routes(array(
     'register' => false,
 ));
+
+Route::get('/lockscreen', 'LockAccountController@lockscreen')->name('lockscreen.index');
+Route::post('/lockscreen', 'LockAccountController@unlock')->name('lockscreen.store');
+Route::get('/forbidden', function (){
+    return view('');
+})->name('forbidden');
